@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>Hello</pattern>
+    <template>Hello! My name is Kendrick. I'm a chat bot, and today I'd like to help you by asking some questions to help you identify which career field best suits you.
+I know I'm a robot, but please think of me if you will as a guide, or a brainstorming buddy who is engaged with the journey of helping you find the answers you are looking for.
+Ultimately what we leave with today are merely suggestions for you to evaluate when we are done with this chat.
+If you don't mind me asking, what is your name?
+<think><set name="topic">username</set></think>
+<!--<think><set var="username"><get name="name" /></set></think>-->
+   <!--<condition var="username">-->
+     <!--<li value="unknown">You haven't told me your name yet!</li>-->
+   <!--  <li>Your name is <get var="username" />.</li>-->
+   <!--</condition>-->
+</template>
   </category>
+  
+
+    
+       <category>
+        <pattern> *</pattern>
+        <template>Excellent!! Hello <person><star/></person>!
+        Of these careers,for which do you feel best-suited?
+                    <ul>
+                        <li>Software Development</li>
+                        <li>IT Networking</li>
+                        <li>CyberSecurity</li>
+                        <li>Database Administrator</li>
+                        <li>UX/UI Specialist</li>
+                    </ul>
+                    <think><set name="topic">career choice</set></think>
+        </template>
+      </category>
+    
+
+<category>
+	<pattern>SOFTWARE DEVELOPMENT</pattern>
+	<template>Are you passionate about Software Development?</template>
+</category>
+
+<category>
+	<pattern>IT NETWORKING</pattern>
+	<template>Are you passionate about becoming an IT engineer?</template>
+</category>
+
+
+
 </aiml>

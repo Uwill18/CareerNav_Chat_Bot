@@ -16,7 +16,7 @@ If you don't mind me asking, what is your name?
   </category>
   
 
-    
+    <topic name="username">
        <category>
         <pattern> *</pattern>
         <template>Excellent!! Hello <person><star/></person>!
@@ -31,16 +31,14 @@ If you don't mind me asking, what is your name?
                     <think><set name="topic">career choice</set></think>
         </template>
       </category>
+      </topic>
     
 
-<category>
-	<pattern>SOFTWARE DEVELOPMENT</pattern>
-	<template>Are you passionate about Software Development?</template>
-</category>
+
 
 <category>
 	<pattern>IT NETWORKING</pattern>
-	<template>Are you passionate about becoming an IT engineer?</template>
+	<template>Are you passionate about becoming a Network Engineer/Specialist?</template>
 </category>
 
 

@@ -4,7 +4,96 @@
 
 <category>
 	<pattern>SOFTWARE DEVELOPMENT</pattern>
-	<template>Are you passionate about Software Development?</template>
+	<template>If you are passionate about software development, 
+	and have relevant experience in this domain such as internships,
+	work experience, bootcamps, or projects, the last question may 
+	be if you have any certifications relative to any of the categories below:
+	                    <ul>
+                        <li>C++ Institute Certifications</li>
+                        <li>Python Institute Certifications</li>
+                        <li>Oracle Certifications</li>
+                        <li>LinkedIn Learning Certificates</li>
+                        <li>Bootcamp Certifications</li>
+                        <li>EdX, Coursera, Codecademy etc..</li>
+                    </ul>
+If the answer is yes to any of the above you are ready to be a Software Developer!</template>
 </category>
 
+                        
+
+
+<category>
+	<pattern>IT Networking</pattern>
+	<template>If you are passionate about IT Networking, 
+	and have relevant experience in this domain such as internships,
+	work experience, bootcamps, or projects, the last question may 
+	be if you have any certifications relative to any of the categories below:
+	                    <ul>
+                        <li>Certified Information Systems Security Professional (CISSP)</li>
+                        <li>Cisco Certified Network Professional (CCNP):</li>
+                        <li>CompTIA Security+</li>
+                        <li>CompTIA Network+</li>
+                        <li>CompTIA A+</li>
+                    </ul>
+If the answer is yes to any of the above you are ready to become a Network Engineer!</template>
+</category>
+
+
+
+<category>
+	<pattern>Cybersecurity</pattern>
+	<template>If you are passionate cyber security, 
+	and have relevant experience in this domain such as internships,
+	work experience, bootcamps, or projects, the last question may 
+	be if you have any certifications relative to any of the categories below:
+	                    <ul>
+                        <li>Certified Information Systems Security Professional (CISSP)</li>
+                        <li>Certified Information Security Manager (CISM)</li>
+                        <li>Certified Ethical Hacker (CEH)</li>
+                        <li>CompTIA Security+</li>
+                        <li>Offensive Security Certified Professional (OSCP)</li>
+                    </ul>
+If the answer is yes to any of the above you are ready to be a Cyber Security Specialist!</template>
+</category>
+
+
+
+<category>
+	<pattern>Database Administrator</pattern>
+	<template>If you are passionate about becoming a Database Admin, 
+	and have relevant experience in this domain such as internships,
+	work experience, bootcamps, or projects, the last question may 
+	be if you have any certifications relative to any of the categories below:
+	                    <ul>
+                        <li>MySQL Certifications</li>
+                        <li>Microsoft SQL Server Certifications</li>
+                        <li>Oracle Database Certifications</li>
+                        <li>PostgreSQL Certification</li>
+                        <li>LinkedIn Learning Certificates</li>
+                        <li>Certified NoSQL Professional</li>
+                        <li>Bootcamp Certifications</li>
+                        <li>EdX, Coursera, Codecademy etc..</li>
+                    </ul>
+If the answer is yes to any of the above you are ready to be a Database Administrator!</template>
+</category>
+
+
+
+
+<category>
+	<pattern>UX/UI Specialist</pattern>
+	<template>If you are passionate about UI/UX, 
+	and have relevant experience in this domain such as internships,
+	work experience, bootcamps, or portfolio projects, the last question may 
+	be if you have any certifications relative to any of the categories below:
+	                    <ul>
+                        <li>Google Certifications</li>
+                        <li>Certified User Experience Professional </li>
+                        <li>Adobe Certified Expert</li>
+                        <li>LinkedIn Learning Certificates</li>
+                        <li>Bootcamp Certifications</li>
+                        <li>EdX, Coursera</li>
+                    </ul>
+If the answer is yes to any of the above you are ready to be a UI/UX specialist!</template>
+</category>
 </aiml>
